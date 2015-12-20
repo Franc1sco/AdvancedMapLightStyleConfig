@@ -1,0 +1,38 @@
+"advLigheStyle"
+{
+	"22" // hour
+	{
+		//The Light Level of the map ,"a"is the Darkest,"z"is the Brightest.
+		"lightlevel"		"h"
+
+		//The SkyName in "materials\skybox",for example:2cliff,hav,ntdm2_ ,sky_borealis01.
+		"skyname"		"sky_day01_09"
+
+		// change to yes if you use a custom skybox, by default the value is "no"
+		"custom"	"no"
+	}
+	"1"
+	{
+		"lightlevel"		"f"
+		"skyname"		"sky_borealis01"
+	}
+	"10"
+	{
+		"lightlevel"		"v"
+		"skyname"		"sky_day02_10"
+	}
+	"13"
+	{
+		"lightlevel"		"y"
+		"skyname"		"sky_day02_05"
+	}
+	"17"
+	{
+		"lightlevel"		"z"
+		"skyname"		"sky_day01_06"
+	}
+	"19"
+	{
+		"default"	"yes" // default map properties, by default the value is "no"
+	}
+}
